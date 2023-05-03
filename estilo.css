@@ -9,9 +9,22 @@ body {
     background-color: rgb(47, 163, 43);
 }
 
+#by{
+    display:flex;
+    margin: 0;
+    text-align: start;
+    font-size: 15px;
+    font-weight: bold;
+    color: #737506;
+    justify-content: flex-end
+    
+}
+
 .container {
     max-width: 500px;
     background: linear-gradient(#34c0d6, #d5f3f7);
+
+    
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -132,6 +145,8 @@ i {
         font-size: 18px;
         width: 50px;
     }
+
+   
 
     .container-operacion {
         margin: 10px;
