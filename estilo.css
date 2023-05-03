@@ -104,3 +104,20 @@ i{
         transform: scale(1);
     }
 }
+
+/*aqui lo volvemos reponsivo*/
+
+@media screen and (max-width: 768px) {
+    #titulo{
+        color: #f5b744;
+        display: none;
+        
+     }
+    .hero-image{
+        display: none;
+    }
+
+    .dishes-grid{
+        grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
+    }
+}
