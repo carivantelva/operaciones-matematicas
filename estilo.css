@@ -113,11 +113,21 @@ i{
         display: none;
         
      }
-    .hero-image{
-        display: none;
+     .container-operadores button{
+        border:none;
+        margin:5px 10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 30%;
+        border: 1px solid black;
+        cursor: pointer;
+        transition: .5s;
     }
 
-    .dishes-grid{
-        grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
-    }
+   
+        
+        
+        
+        
+    
 }
